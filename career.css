@@ -295,21 +295,21 @@ main h1 {
 .rocket {
   position: absolute;
   bottom: 0;
-  top: 90px;
-  left: 14%;
+  top: 110px;
+  left: 19%;
   transform: rotate(35deg);
   z-index: 5;
 }
 
 @media screen and (max-width: 1400px) {
   .rocket {
-    left: 9%;
+    left: 14%;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .rocket {
-    left: 2%;
+    left: 7%;
   }
 }
 
@@ -330,59 +330,59 @@ main h1 {
 }
 
 .img-1 {
-  animation: image-scroll-right-rotate-1 5s linear infinite;
+  animation: image-scroll-right-rotate-1 7s linear infinite;
 }
 
 .img-2 {
-  animation: image-scroll-right-rotate-2 5s linear infinite;
+  animation: image-scroll-right-rotate-2 7s linear infinite;
 }
 
 .img-3 {
-  animation: image-scroll-right-rotate-3 5s linear infinite;
+  animation: image-scroll-right-rotate-3 7s linear infinite;
 }
 
 .img-4 {
-  animation: image-scroll-right-rotate-4 5s linear infinite;
+  animation: image-scroll-right-rotate-4 7s linear infinite;
 }
 
 .img-5 {
-  animation: image-scroll-right-rotate-5 5s linear infinite;
+  animation: image-scroll-right-rotate-5 7s linear infinite;
 }
 
 .img-6 {
-  animation: image-scroll-right-rotate-6 5s linear infinite;
+  animation: image-scroll-right-rotate-6 7s linear infinite;
 }
 
 .img-7 {
-  animation: image-scroll-right-rotate-7 5s linear infinite;
+  animation: image-scroll-right-rotate-7 7s linear infinite;
 }
 
 .img-8 {
-  animation: image-scroll-right-rotate-8 5s linear infinite;
+  animation: image-scroll-right-rotate-8 7s linear infinite;
 }
 
 .img-9 {
-  animation: image-scroll-right-rotate-9 5s linear infinite;
+  animation: image-scroll-right-rotate-9 7s linear infinite;
 }
 
 .img-10 {
-  animation: image-scroll-right-rotate-10 5s linear infinite;
+  animation: image-scroll-right-rotate-10 7s linear infinite;
 }
 
 .img-11 {
-  animation: image-scroll-right-rotate-11 5s linear infinite;
+  animation: image-scroll-right-rotate-11 7s linear infinite;
 }
 
 .img-12 {
-  animation: image-scroll-right-rotate-12 5s linear infinite;
+  animation: image-scroll-right-rotate-12 7s linear infinite;
 }
 
 @keyframes image-scroll-right-rotate-1 {
   0% {
     transform: translateX(0) rotate(10deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(10deg);
+  90% {
+    transform: translateX(-250%) rotate(10deg);
   }
 }
 
@@ -390,8 +390,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(-15deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(-15deg);
+  90% {
+    transform: translateX(-250%) rotate(-15deg);
   }
 }
 
@@ -399,8 +399,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(5deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(5deg);
+  90% {
+    transform: translateX(-250%) rotate(5deg);
   }
 }
 
@@ -408,8 +408,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(0deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(0deg);
+  90% {
+    transform: translateX(-250%) rotate(0deg);
   }
 }
 
@@ -417,8 +417,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(10deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(10deg);
+  90% {
+    transform: translateX(-250%) rotate(10deg);
   }
 }
 
@@ -426,8 +426,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(30deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(30deg);
+  90% {
+    transform: translateX(-250%) rotate(30deg);
   }
 }
 
@@ -435,8 +435,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(-15deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(-15deg);
+  90% {
+    transform: translateX(-250%) rotate(-15deg);
   }
 }
 
@@ -444,8 +444,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(0deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(0deg);
+  90% {
+    transform: translateX(-250%) rotate(0deg);
   }
 }
 
@@ -453,8 +453,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(15deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(15deg);
+  90% {
+    transform: translateX(-250%) rotate(15deg);
   }
 }
 
@@ -462,8 +462,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(-10deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(-10deg);
+  90% {
+    transform: translateX(-250%) rotate(-10deg);
   }
 }
 
@@ -471,8 +471,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(30deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(30deg);
+  90% {
+    transform: translateX(-250%) rotate(30deg);
   }
 }
 
@@ -480,8 +480,8 @@ main h1 {
   0% {
     transform: translateX(0) rotate(30deg);
   }
-  100% {
-    transform: translateX(-190%) rotate(30deg);
+  90% {
+    transform: translateX(-250%) rotate(30deg);
   }
 }
 
@@ -556,7 +556,7 @@ h2 {
     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
   }
 
-  100% {
+  90% {
     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
   }
 }
