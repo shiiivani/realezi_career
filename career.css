@@ -282,7 +282,7 @@ main h1 {
   text-align: center;
   margin: auto;
   font-weight: 400 !important;
-  font-size: 3rem;
+  font-size: 2.6rem;
   color: #111f3c;
 }
 
@@ -494,7 +494,7 @@ main h1 {
 h2 {
   text-align: center;
   margin: auto;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 400 !important;
   color: #111f3c;
 }
@@ -567,6 +567,7 @@ h2 {
   background-color: #111f3c;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  position: relative;
   padding: 55px 10px 20px 10px;
 }
 
@@ -960,7 +961,7 @@ h2 {
     flex-direction: column;
   }
   .footer .lower-bottom p {
-    margin-bottom: 20px !important;
+    margin-bottom: 8px !important;
   }
 }
 
@@ -1003,14 +1004,44 @@ h2 {
     position: static;
   }
   .footer .columns > div:first-child,
-  .playStore-btn.larger-screen,
-  .upper-footer .columns > div:nth-child(5) {
+  .playStore-btn.larger-screen {
     display: none !important;
   }
+  .footer .upper-footer .columns {
+    flex-direction: column;
+  }
   .footer .upper-footer .columns > div {
+    overflow: hidden;
     width: 100%;
   }
-
+  .footer .upper-footer .columns > div ul {
+    max-height: 0px;
+    transition: max-height 0.5s ease;
+    margin: 0;
+  }
+  .footer .upper-footer .columns > div ul.active {
+    max-height: 260px;
+  }
+  .footer .upper-footer .columns > div:last-child li:last-child {
+    width: 100%;
+  }
+  .footer .upper-footer .columns > div:last-child li:nth-child(4) {
+    position: absolute;
+    top: -8%;
+    left: 65%;
+  }
+  .footer .upper-footer ul {
+    border: none;
+  }
+  .footer .upper-footer .columns h4 {
+    margin-top: 15px;
+  }
+  .footer .columns > div:nth-child(4) h4 {
+    margin-top: 8px;
+  }
+  .footer .upper-footer .columns h4 svg.rotated {
+    transform: rotate(180deg);
+  }
   .footer .upper-footer .columns > div:nth-child(2) ul > div {
     position: absolute;
     right: 0px;
@@ -1025,14 +1056,12 @@ h2 {
   .upper-footer .columns {
     margin-bottom: 0 !important;
   }
-  .upper-footer .columns div:nth-child(4) {
-    margin-top: 50px;
-  }
-  .upper-footer .columns div:nth-child(4) .d-flex {
-    justify-content: space-between;
-  }
   .lower-footer .lower-upper {
     padding-top: 0 !important;
+  }
+  .lower-footer .lower-bottom {
+    border-top: 1px solid #919191;
+    padding-top: 8px;
   }
 }
 
@@ -1044,12 +1073,37 @@ h2 {
   }
 }
 
+@media screen and (max-width: 460px) {
+  .footer .upper-footer .columns > div:last-child li:nth-child(4) {
+    left: 64%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer .upper-footer .columns > div:last-child li:nth-child(4) {
+    left: 60%;
+  }
+}
+
 @media screen and (max-width: 445px) {
   .lower-upper ul {
     flex-direction: column;
   }
   .lower-upper ul li {
     margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer .upper-footer .columns > div:last-child li:nth-child(4) {
+    left: 55%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .footer .googlePlay-button .texts,
+  .footer .appstore-button .texts {
+    font-size: 0.8rem;
   }
 }
 
