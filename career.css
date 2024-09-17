@@ -284,6 +284,7 @@ main h1 {
   font-weight: 400 !important;
   font-size: 2.6rem;
   color: #111f3c;
+  margin-bottom: 150px;
 }
 
 /* Rocket */
@@ -295,8 +296,8 @@ main h1 {
 .rocket {
   position: absolute;
   bottom: 0;
-  top: 110px;
-  left: 19%;
+  top: 200px;
+  left: 18%;
   transform: rotate(35deg);
   z-index: 5;
 }
