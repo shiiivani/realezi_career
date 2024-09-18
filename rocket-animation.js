@@ -22,8 +22,8 @@ mm.add("(min-width: 1200px) and (max-height: 900px)", function () {
     .to(".rocket", { duration: 0.09, x: -200, y: 950, rotation: 60 })
     .to(".rocket", { duration: 0.05, y: 1050, rotation: -55 })
     .to(".rocket", { duration: 0.09, x: 260, y: 1200, rotation: -55 })
-    .to(".rocket", { duration: 0.05, x: 385, y: 1300, rotation: 0 })
-    .to(".rocket", { duration: 0.05, y: 1550, rotation: 0 });
+    .to(".rocket", { duration: 0.05, x: 395, y: 1300, rotation: 0 })
+    .to(".rocket", { duration: 0.05, y: 1490, rotation: 0 });
 });
 
 mm.add("(min-width: 1200px) and (min-height: 900px)", function () {
