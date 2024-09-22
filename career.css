@@ -690,15 +690,17 @@ h2 {
   bottom: 10px;
 }
 
-.playStore-btn .texts .launch-text {
+.googlePlay-button .texts .launch-text,
+.appstore-button .texts .launch-text {
   font-size: 1rem;
   white-space: wrap;
   margin-right: 10px;
 }
 
-.playStore-btn .texts .soon-text {
+.googlePlay-button .texts .soon-text,
+.appstore-button .texts .soon-text {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 400 !important;
   text-align: center;
   margin-left: 15px;
 }
@@ -985,12 +987,11 @@ h2 {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .footer .lower-bottom {
-    flex-direction: column;
-  }
-  .footer .lower-bottom p {
-    margin-bottom: 20px !important;
+@media screen and (min-width: 560px) {
+  .upper-footer .mobile-view-list,
+  .playStore-btn.smaller-screen,
+  .smaller-screen-refer-button {
+    display: none !important;
   }
 }
 
@@ -1060,6 +1061,15 @@ h2 {
   .lower-footer .lower-upper {
     padding-top: 0 !important;
   }
+  .footer .upper-footer .columns > div:last-child li:last-child:before,
+  .footer .upper-footer .columns > div:last-child li:nth-child(4):before {
+    display: none;
+  }
+  .googlePlay-button,
+  .appstore-button {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .lower-footer .lower-bottom {
     border-top: 1px solid #919191;
     padding-top: 8px;
@@ -1104,7 +1114,12 @@ h2 {
 @media screen and (max-width: 405px) {
   .footer .googlePlay-button .texts,
   .footer .appstore-button .texts {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  .footer .googlePlay-button,
+  .footer .appstore-button {
+    padding: 0.625rem 1rem;
   }
 }
 
