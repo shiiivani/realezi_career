@@ -530,6 +530,10 @@ h2 {
   padding: 55px 10px 20px 10px;
 }
 
+footer p {
+  margin-bottom: 0 !important;
+}
+
 .footer .upper-footer ul {
   padding-left: 0;
   border-top: 0.5px solid #919191;
@@ -537,7 +541,7 @@ h2 {
 }
 
 .footer h3 {
-  font-weight: 400 !important;
+  /* font-weight: 400 !important; */
   font-size: 2rem;
   margin-top: 10px;
   white-space: nowrap;
@@ -545,7 +549,7 @@ h2 {
 }
 
 .footer h4 {
-  font-weight: 300;
+  /* font-weight: 300; */
   font-size: 1.5rem;
 }
 
@@ -606,7 +610,7 @@ h2 {
 }
 
 .footer .upper-footer li {
-  font-weight: 300 !important;
+  /* font-weight: 300 !important; */
   margin: 13px 0;
   text-align: left;
   white-space: nowrap;
@@ -618,7 +622,7 @@ h2 {
   padding: 6px 30px 6px 6px;
   border: none;
   color: #111f3c;
-  font-weight: 300 !important;
+  /* font-weight: 300 !important; */
   font-size: 1rem;
   flex-wrap: nowrap;
   display: flex;
@@ -1088,14 +1092,10 @@ h2 {
   .footer .upper-footer .columns > div:last-child li:nth-child(4) {
     left: 60%;
   }
-}
-
-@media screen and (max-width: 445px) {
-  .lower-upper ul {
-    flex-direction: column;
-  }
-  .lower-upper ul li {
-    margin-top: 5px;
+  .googlePlay-button,
+  .appstore-button {
+    margin-left: 2px;
+    margin-right: 2px;
   }
 }
 
