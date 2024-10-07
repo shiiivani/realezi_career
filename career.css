@@ -246,29 +246,24 @@ main h1 {
 }
 
 /* Rocket */
-/* .rocket-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-} */
 .rocket {
   position: absolute;
   bottom: 0;
-  top: 200px;
-  left: 18%;
+  top: 165px;
+  left: 16%;
   transform: rotate(35deg);
   z-index: 5;
 }
 
 @media screen and (max-width: 1400px) {
   .rocket {
-    left: 14%;
+    left: 10%;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .rocket {
-    left: 7%;
+    left: 3%;
   }
 }
 
