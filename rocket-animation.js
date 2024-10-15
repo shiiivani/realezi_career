@@ -58,11 +58,11 @@ mm.add("(min-width: 1200px) and (max-height: 900px)", function () {
 mm.add("(min-width: 1200px) and (min-height: 1000px)", function () {
   const rocketTimelineLarge = gsap.timeline({
     scrollTrigger: {
-      trigger: ".navbar", // Trigger animation based on the navbar section
-      start: "top top", // Animation starts when the top of .navbar hits the top of the viewport
-      endTrigger: ".join-us-section", // Animation ends when .join-us-section hits the top of the viewport
-      end: "top top", // End animation when the top of .join-us-section hits the top of the viewport
-      scrub: true, // Smoothly animate the rocket
+      trigger: ".navbar",
+      start: "top top",
+      endTrigger: ".join-us-section",
+      end: "top top",
+      scrub: true,
       markers: false,
     },
   });
